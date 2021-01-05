@@ -22,15 +22,18 @@
     "url": "git+https://github.com/poeschko/bs-glamor.git"
   },
   "dependencies": {
-    "glamor": "^2.0.0"
+    "glamor": "^2.20.40"
   },
   "devDependencies": {
-    "bs-jest": "^0.1.0",
-    "bs-platform": "^3.0.0"
+    "@glennsl/bs-jest": "^0.6.0",
+    "bs-jest": "^0.3.2",
+    "bs-platform": "^8.4.2"
   },
   "jest": {
     "roots": [
       "lib/js/src"
-    ]
+    ],
+    "verbose": true,
+    "testURL": "http://localhost/"
   }
 }

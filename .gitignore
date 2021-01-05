@@ -6,3 +6,4 @@
 npm-debug.log
 finalOutput/*.js
 .merlin
+_esy/default
